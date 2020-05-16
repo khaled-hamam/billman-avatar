@@ -10,7 +10,11 @@ const Avatar = ({ size, icon }) => {
     justifyContent: 'center',
   };
 
-  return <Layout style={avatarStyle}></Layout>;
+  return (
+    <Layout style={avatarStyle}>
+      {icon}
+    </Layout>
+  );
 };
 
 module.exports = Avatar;
