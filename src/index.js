@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout } from 'react-native';
+import { View } from 'react-native';
 
 const Avatar = ({ size, icon }) => {
   const avatarStyle = {
@@ -11,9 +11,9 @@ const Avatar = ({ size, icon }) => {
   };
 
   return (
-    <Layout style={avatarStyle}>
+    <View style={avatarStyle}>
       {icon}
-    </Layout>
+    </View>
   );
 };
 
